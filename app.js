@@ -13,7 +13,7 @@ const app = express();
 const mongoose = require('mongoose');
 
 //Set up mongoose connection
-const mongoDB = 'mongodb://127.0.0.1/tutorial-node';
+const mongoDB = 'mongodb://127.0.0.1/tutorial-mozilla';
 mongoose.connect(mongoDB, { useNewUrlParser: true });
 mongoose.Promise = global.Promise;
 const db = mongoose.connection;
